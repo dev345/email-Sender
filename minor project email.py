@@ -37,7 +37,7 @@ def fun1():
     mail.attach(MIMEText(e3.get('1.0',END),'plain'))###messsage to be send
     att=MIMEBase('application','octet-stream')
     att.set_payload((open(V.get(),"rb")).read())###file to be sent
-    encoders.encode_base64(att)
+    email.encoders.encode_base64(att)
     att.add_header('content-Disposition','attachment; filename=%s'%os.path.basename(V.get()))###file name 
     mail.attach(att)
     client=smtplib.SMTP('smtp.gmail.com',587)

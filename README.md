@@ -1,1 +1,1 @@
-# email-Sender
+# email-SenderThe frontend has been created with the help of GUI .language used is Python.The use enter its gmail id and password(no one will see it,totally private),writes the sender's name in the sender's box,subject, message which is to be send.I have also provided an upload button to upload a file(anytype of file),clear button to refresh the whole page,send button to send the whole.

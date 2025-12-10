@@ -1,5 +1,4 @@
-#bkthakur
-#amit.cetpa@gmail.com
+
 import os
 from tkinter import *
 from tkinter import filedialog,messagebox
@@ -89,3 +88,4 @@ b1=Button(a,activebackground="#F8F8F8",activeforeground="black",bd=3,text="send"
 b1.place(x=910,y=650)
 
 a.mainloop()
+
